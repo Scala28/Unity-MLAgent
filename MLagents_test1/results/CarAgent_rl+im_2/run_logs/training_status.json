@@ -1,0 +1,110 @@
+{
+    "CarAgent": {
+        "checkpoints": [
+            {
+                "steps": 926838,
+                "file_path": "results\\CarAgent_rl+im_2\\CarAgent\\CarAgent-926838.onnx",
+                "reward": null,
+                "creation_time": 1684821428.3902402,
+                "auxillary_file_paths": [
+                    "results\\CarAgent_rl+im_2\\CarAgent\\CarAgent-926838.pt"
+                ]
+            },
+            {
+                "steps": 999962,
+                "file_path": "results\\CarAgent_rl+im_2\\CarAgent\\CarAgent-999962.onnx",
+                "reward": -0.8332822524011135,
+                "creation_time": 1684822643.802421,
+                "auxillary_file_paths": [
+                    "results\\CarAgent_rl+im_2\\CarAgent\\CarAgent-999962.pt"
+                ]
+            },
+            {
+                "steps": 1499994,
+                "file_path": "results\\CarAgent_rl+im_2\\CarAgent\\CarAgent-1499994.onnx",
+                "reward": -0.019504727330058813,
+                "creation_time": 1684824118.7556794,
+                "auxillary_file_paths": [
+                    "results\\CarAgent_rl+im_2\\CarAgent\\CarAgent-1499994.pt"
+                ]
+            },
+            {
+                "steps": 1999755,
+                "file_path": "results\\CarAgent_rl+im_2\\CarAgent\\CarAgent-1999755.onnx",
+                "reward": 0.6184698045253754,
+                "creation_time": 1684825714.2934809,
+                "auxillary_file_paths": [
+                    "results\\CarAgent_rl+im_2\\CarAgent\\CarAgent-1999755.pt"
+                ]
+            },
+            {
+                "steps": 2426034,
+                "file_path": "results\\CarAgent_rl+im_2\\CarAgent\\CarAgent-2426034.onnx",
+                "reward": 0.6909834537655115,
+                "creation_time": 1684827178.5989592,
+                "auxillary_file_paths": [
+                    "results\\CarAgent_rl+im_2\\CarAgent\\CarAgent-2426034.pt"
+                ]
+            },
+            {
+                "steps": 2499773,
+                "file_path": "results\\CarAgent_rl+im_2\\CarAgent\\CarAgent-2499773.onnx",
+                "reward": -1.705142189376056,
+                "creation_time": 1684827650.7436693,
+                "auxillary_file_paths": [
+                    "results\\CarAgent_rl+im_2\\CarAgent\\CarAgent-2499773.pt"
+                ]
+            },
+            {
+                "steps": 2999923,
+                "file_path": "results\\CarAgent_rl+im_2\\CarAgent\\CarAgent-2999923.onnx",
+                "reward": -1.0271599171683192,
+                "creation_time": 1684829421.034579,
+                "auxillary_file_paths": [
+                    "results\\CarAgent_rl+im_2\\CarAgent\\CarAgent-2999923.pt"
+                ]
+            },
+            {
+                "steps": 3098133,
+                "file_path": "results\\CarAgent_rl+im_2\\CarAgent\\CarAgent-3098133.onnx",
+                "reward": null,
+                "creation_time": 1684829868.0083401,
+                "auxillary_file_paths": [
+                    "results\\CarAgent_rl+im_2\\CarAgent\\CarAgent-3098133.pt"
+                ]
+            },
+            {
+                "steps": 3499831,
+                "file_path": "results\\CarAgent_rl+im_2\\CarAgent\\CarAgent-3499831.onnx",
+                "reward": -0.6947372026431063,
+                "creation_time": 1684831759.2830222,
+                "auxillary_file_paths": [
+                    "results\\CarAgent_rl+im_2\\CarAgent\\CarAgent-3499831.pt"
+                ]
+            },
+            {
+                "steps": 3698115,
+                "file_path": "results\\CarAgent_rl+im_2\\CarAgent\\CarAgent-3698115.onnx",
+                "reward": null,
+                "creation_time": 1684832528.1105466,
+                "auxillary_file_paths": [
+                    "results\\CarAgent_rl+im_2\\CarAgent\\CarAgent-3698115.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 3698115,
+            "file_path": "results\\CarAgent_rl+im_2\\CarAgent.onnx",
+            "reward": null,
+            "creation_time": 1684832528.1105466,
+            "auxillary_file_paths": [
+                "results\\CarAgent_rl+im_2\\CarAgent\\CarAgent-3698115.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.0.0+cu118"
+    }
+}
