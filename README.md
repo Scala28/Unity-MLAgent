@@ -1,6 +1,6 @@
 # Unity-MLAgent
 Little project to test the Unity MLAgent package and to gain experience in machine learning environment.
-
+Managed to make this work with python 3.10.
 Create the ML environment:
 - navigate to the MLagents_test1 folder: cd <path to MLagents_test1 folder>
 - create the python virtual environment: python -m venv venv
