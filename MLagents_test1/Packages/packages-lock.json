@@ -68,7 +68,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.visualstudio": {
-      "version": "2.0.17",
+      "version": "2.0.22",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -91,7 +91,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ml-agents": {
-      "version": "file:C:/Users/scalu/OneDrive/Desktop/salvare/unity/ml-agents-release_20/com.unity.ml-agents",
+      "version": "file:C:/Users/lucas/Desktop/unity/ml-agents-release_20/com.unity.ml-agents",
       "depth": 0,
       "source": "local",
       "dependencies": {

@@ -703,11 +703,11 @@ PlayerSettings:
     m_VersionName: 
   apiCompatibilityLevel: 6
   activeInputHandler: 0
-  cloudProjectId: 
+  cloudProjectId: 39e4bb6c-f5b2-45dd-b661-b75c9125a96e
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
-  organizationId: 
+  projectName: MLagents_test1
+  organizationId: scala28
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   playerDataPath: 

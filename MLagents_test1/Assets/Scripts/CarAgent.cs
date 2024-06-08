@@ -73,7 +73,7 @@ public class CarAgent : Agent
         //REINFORCEMENT
         //switch (actions.DiscreteActions[0])
         //{
-        //    case 0: forwardAmount =  0f; break;
+        //    case 0: forwardAmount = 0f; break;
         //    case 1: forwardAmount = .5f; break;
         //    case 2: forwardAmount = +1f; break;
         //    case 3: forwardAmount = -1f; break;
@@ -89,25 +89,32 @@ public class CarAgent : Agent
         //RL + IM
         forwardAmount = actions.ContinuousActions[0];
         steerAmount = actions.ContinuousActions[1];
+
         _controller.SetInputs(forwardAmount, steerAmount);
         //Debug.Log(forwardAmount);
 
     }
     public override void Heuristic(in ActionBuffers actionsOut)
     {
-        float forwardAction = 0;
+        //RL
+        //int forwardAction = 0;
         //if (Input.GetKey(KeyCode.UpArrow)) forwardAction = 2;
         //if (Input.GetKey(KeyCode.DownArrow)) forwardAction = 3;
+
+        //int turnAction = 0;
+        //if (Input.GetKey(KeyCode.RightArrow)) turnAction = 2;
+        //if (Input.GetKey(KeyCode.LeftArrow)) turnAction = 4;
+
+        //RL + IM
+        float forwardAction = 0;
         forwardAction = Input.GetAxis("Vertical");
+        float turnAction = 0;
+        turnAction = Input.GetAxis("Horizontal");
 
-        float turnActiom = 0;
-        //if (Input.GetKey(KeyCode.RightArrow)) turnActiom = 2;
-        //if (Input.GetKey(KeyCode.LeftArrow)) turnActiom = 4;
-        turnActiom = Input.GetAxis("Horizontal");
-
+        //ActionSegment<int> actions = actionsOut.DiscreteActions;
         ActionSegment<float> actions = actionsOut.ContinuousActions;
         actions[0] = forwardAction;
-        actions[1] = turnActiom;
+        actions[1] = turnAction;
     }
 
     private void OnTriggerEnter(Collider other)
